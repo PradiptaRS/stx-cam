@@ -30,6 +30,6 @@ if (move_uploaded_file($_FILES['files']['tmp_name'][0], $yuklenecek_dosya))
     ];
     print_r(json_encode($result));
 } else {
-    echo "Dosya yüklenemedi!\n";
+    echo "File tidak dapat dimuat!\n";
 }
 ?>
